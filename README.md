@@ -1,24 +1,24 @@
-# README
+# RUBY API TEMPLATE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby API template for general purposes.
 
-Things you may want to cover:
+#### Versions
 
-* Ruby version
+| App | Version |
+| ------ | ------ |
+| Ruby version | ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu] |
+| Rails version | Rails 7.0.4 |
 
-* System dependencies
+#### Running
 
-* Configuration
+In the project directory:
+```sh
+bin/rails serve
+```
 
-* Database creation
+Application is available at ``` http://localhost:3000/ ```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Generating controllers
+```sh
+rails generate scaffold_controller <domain>/<controller>
+```
